@@ -5,6 +5,7 @@ export const HeroesApp = () => {
     return (
         <div>
             <AppRouter />
+            <h1>Heroes App</h1>
         </div>
     )
 }
