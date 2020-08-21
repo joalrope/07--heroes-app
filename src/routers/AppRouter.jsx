@@ -3,11 +3,10 @@ import {
     BrowserRouter as Router,
     Switch,
     Route
-  } from 'react-router-dom';
+} from 'react-router-dom';
 
-  import { LoginScreen } from '../components/login/LoginScreen';
+import { LoginScreen } from '../components/login/LoginScreen';
 import { DashboardRouter } from './DashboardRouter';
-
 
 
 export const AppRouter = () => {
@@ -15,8 +14,8 @@ export const AppRouter = () => {
         <Router>
             <div>
                 <Switch>
-                    <Route exact path="/login" component={ LoginScreen } />
-                    <Route path="/" component={ DashboardRouter } />    
+                    <Route exact path="/login" component={LoginScreen} />
+                    <Route path="/" component={DashboardRouter} />
                 </Switch>
             </div>
         </Router>
