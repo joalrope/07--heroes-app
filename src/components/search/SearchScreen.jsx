@@ -70,8 +70,8 @@ export const SearchScreen = ({ history }) => {
 
                     {
                         heroesFiltered.map(hero => (
-                            <div className="mt-3">
-                                <HeroCard className="mt-5" key={hero.id} {...hero} />
+                            <div className="mt-3" key={hero.id} >
+                                <HeroCard {...hero} />
                             </div>
                         ))
                     }
