@@ -20,7 +20,7 @@ export const NavBar = () => {
     }
 
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav className="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
 
             <Link
                 className="navbar-brand"
